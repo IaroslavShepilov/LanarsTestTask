@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17126"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="AddController" customModule="LanarsTestTask" customModuleProvider="target">
+            <connections>
+                <outlet property="accTypeControl" destination="Y2I-63-Ski" id="aIN-1o-Ea9"/>
+                <outlet property="accountanTypeLabel" destination="tKK-6M-33o" id="N2b-WX-P2W"/>
+                <outlet property="accountantTypeTextField" destination="5EI-gX-E4Q" id="6G9-Hk-hAq"/>
+                <outlet property="control" destination="hgS-EZ-Pfd" id="Jse-3i-D8j"/>
+                <outlet property="lunchTimeLabel" destination="fcJ-Jr-UHd" id="fYh-bm-lLv"/>
+                <outlet property="lunchTimeTextField" destination="tvt-us-J25" id="25H-wo-c1a"/>
+                <outlet property="nameLabel" destination="1iu-3k-h37" id="okb-0w-XyY"/>
+                <outlet property="nameTextField" destination="1lM-69-Lmi" id="XRe-fi-1ob"/>
+                <outlet property="receptionHoursLabel" destination="ezF-O0-eKf" id="d2a-v7-e5a"/>
+                <outlet property="receptionHoursTextField" destination="Tci-Kk-CR6" id="R8C-GP-EPa"/>
+                <outlet property="salaryLabel" destination="xpv-qG-vwV" id="Trl-gY-DYE"/>
+                <outlet property="salaryTextField" destination="Lcf-5x-jvd" id="qZI-8C-Q6c"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+                <outlet property="workPlaceNumberLabel" destination="Cjc-yp-Ij8" id="tWO-C1-Ztt"/>
+                <outlet property="workPlaceNumberTextField" destination="Xus-oT-ODm" id="C48-VB-ekQ"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="zHU-Fp-yiD">
+                    <rect key="frame" x="100" y="69" width="214" height="498"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1iu-3k-h37">
+                            <rect key="frame" x="0.0" y="0.0" width="214" height="24"/>
+                            <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="20"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="1lM-69-Lmi">
+                            <rect key="frame" x="0.0" y="34" width="214" height="34"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <textInputTraits key="textInputTraits"/>
+                        </textField>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Salary, USD:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xpv-qG-vwV">
+                            <rect key="frame" x="0.0" y="78" width="214" height="23"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Lcf-5x-jvd">
+                            <rect key="frame" x="0.0" y="111" width="214" height="34"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <textInputTraits key="textInputTraits"/>
+                        </textField>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Workplace number:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Cjc-yp-Ij8">
+                            <rect key="frame" x="0.0" y="155" width="214" height="24"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Xus-oT-ODm">
+                            <rect key="frame" x="0.0" y="189" width="214" height="34"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <textInputTraits key="textInputTraits"/>
+                        </textField>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Lunch time:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fcJ-Jr-UHd">
+                            <rect key="frame" x="0.0" y="233" width="214" height="24"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="tvt-us-J25">
+                            <rect key="frame" x="0.0" y="267" width="214" height="34"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <textInputTraits key="textInputTraits"/>
+                        </textField>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Reception hours:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ezF-O0-eKf">
+                            <rect key="frame" x="0.0" y="311" width="214" height="24"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Tci-Kk-CR6">
+                            <rect key="frame" x="0.0" y="345" width="214" height="34"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <textInputTraits key="textInputTraits"/>
+                        </textField>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Accountant type:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tKK-6M-33o">
+                            <rect key="frame" x="0.0" y="389" width="214" height="24"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <textField opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="5EI-gX-E4Q">
+                            <rect key="frame" x="0.0" y="423" width="214" height="34"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <textInputTraits key="textInputTraits"/>
+                        </textField>
+                        <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" translatesAutoresizingMaskIntoConstraints="NO" id="Y2I-63-Ski">
+                            <rect key="frame" x="0.0" y="467" width="214" height="32"/>
+                            <segments>
+                                <segment title="payroll"/>
+                                <segment title="materials"/>
+                            </segments>
+                            <connections>
+                                <action selector="accTupeDidChange:" destination="-1" eventType="valueChanged" id="l9B-fg-O4K"/>
+                            </connections>
+                        </segmentedControl>
+                    </subviews>
+                </stackView>
+                <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" translatesAutoresizingMaskIntoConstraints="NO" id="hgS-EZ-Pfd">
+                    <rect key="frame" x="0.0" y="656" width="414" height="32"/>
+                    <segments>
+                        <segment title="Accountant"/>
+                        <segment title="Employee"/>
+                        <segment title="Management"/>
+                    </segments>
+                    <connections>
+                        <action selector="didChangeSegment:" destination="-1" eventType="valueChanged" id="dwl-Bc-yLl"/>
+                    </connections>
+                </segmentedControl>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="hgS-EZ-Pfd" firstAttribute="trailing" secondItem="fnl-2z-Ty3" secondAttribute="trailing" id="0fc-KK-s5T"/>
+                <constraint firstItem="hgS-EZ-Pfd" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="2OR-9c-Nda"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="zHU-Fp-yiD" secondAttribute="trailing" constant="100" id="KX2-Qi-lPh"/>
+                <constraint firstItem="zHU-Fp-yiD" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="25" id="NtR-qO-G1h"/>
+                <constraint firstItem="zHU-Fp-yiD" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="100" id="ZMf-bL-pYq"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="hgS-EZ-Pfd" secondAttribute="bottom" constant="175" id="tXY-kC-DQQ"/>
+            </constraints>
+            <point key="canvasLocation" x="140.57971014492756" y="150.66964285714286"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

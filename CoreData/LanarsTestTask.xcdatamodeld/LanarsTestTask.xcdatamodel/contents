@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="17192" systemVersion="19H1715" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="AccountantDB" representedClassName="AccountantDB" parentEntity="StaffDB" syncable="YES" codeGenerationType="class">
+        <attribute name="accountantType" attributeType="String"/>
+        <attribute name="lunchTime" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="workplaceNumber" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+    </entity>
+    <entity name="EmployeeDB" representedClassName="EmployeeDB" parentEntity="StaffDB" syncable="YES" codeGenerationType="class">
+        <attribute name="lunchTime" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="workplaceNumber" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+    </entity>
+    <entity name="ManagementDB" representedClassName="ManagementDB" parentEntity="StaffDB" syncable="YES" codeGenerationType="class">
+        <attribute name="receptionHours" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+    </entity>
+    <entity name="StaffDB" representedClassName="StaffDB" isAbstract="YES" syncable="YES" codeGenerationType="class">
+        <attribute name="id" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="name" attributeType="String"/>
+        <attribute name="salary" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+    </entity>
+    <elements>
+        <element name="AccountantDB" positionX="102.37890625" positionY="-170.28125" width="128" height="88"/>
+        <element name="EmployeeDB" positionX="-5.96875" positionY="401.05859375" width="124.34375" height="73"/>
+        <element name="ManagementDB" positionX="-230.9453125" positionY="117.84375" width="128" height="58"/>
+        <element name="StaffDB" positionX="-2.10546875" positionY="101.2265625" width="128" height="88"/>
+    </elements>
+</model>

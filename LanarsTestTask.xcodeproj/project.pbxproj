@@ -1,0 +1,889 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5DE8A5BCF54F3851A3093DEC /* Pods_LanarsTestTask_LanarsTestTaskUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7454007E95A1458A0BD91E7 /* Pods_LanarsTestTask_LanarsTestTaskUITests.framework */; };
+		814B30EABE7243C924D77DB9 /* Pods_LanarsTestTaskTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F625EA0061F3A1CC64D2400D /* Pods_LanarsTestTaskTests.framework */; };
+		A4555B3A27D6331E005CFDA1 /* ListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4555B3927D6331E005CFDA1 /* ListPresenter.swift */; };
+		A47D96EE27D92F5300F45431 /* GalleryCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A47D96EC27D92F5300F45431 /* GalleryCollectionViewCell.swift */; };
+		A47D96EF27D92F5300F45431 /* GalleryCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A47D96ED27D92F5300F45431 /* GalleryCollectionViewCell.xib */; };
+		A490259027CD1D48001A7B77 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A490258E27CD1D48001A7B77 /* MainViewController.swift */; };
+		A490259127CD1D48001A7B77 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A490258F27CD1D48001A7B77 /* MainViewController.xib */; };
+		A4C8401127CCF6F200247FBE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4C8401027CCF6F200247FBE /* AppDelegate.swift */; };
+		A4C8401327CCF6F200247FBE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4C8401227CCF6F200247FBE /* SceneDelegate.swift */; };
+		A4C8401527CCF6F200247FBE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4C8401427CCF6F200247FBE /* ViewController.swift */; };
+		A4C8401827CCF6F200247FBE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4C8401627CCF6F200247FBE /* Main.storyboard */; };
+		A4C8401B27CCF6F200247FBE /* LanarsTestTask.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A4C8401927CCF6F200247FBE /* LanarsTestTask.xcdatamodeld */; };
+		A4C8401D27CCF70200247FBE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4C8401C27CCF70200247FBE /* Assets.xcassets */; };
+		A4C8402027CCF70200247FBE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4C8401E27CCF70200247FBE /* LaunchScreen.storyboard */; };
+		A4C8402B27CCF70200247FBE /* LanarsTestTaskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4C8402A27CCF70200247FBE /* LanarsTestTaskTests.swift */; };
+		A4C8403627CCF70200247FBE /* LanarsTestTaskUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4C8403527CCF70200247FBE /* LanarsTestTaskUITests.swift */; };
+		A4FA7C9427CE3B0900D765EB /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4FA7C9227CE3B0900D765EB /* ListViewController.swift */; };
+		A4FA7C9527CE3B0900D765EB /* ListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A4FA7C9327CE3B0900D765EB /* ListViewController.xib */; };
+		A4FA7C9B27CE3B2000D765EB /* GalleryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4FA7C9927CE3B2000D765EB /* GalleryViewController.swift */; };
+		A4FA7C9C27CE3B2000D765EB /* GalleryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A4FA7C9A27CE3B2000D765EB /* GalleryViewController.xib */; };
+		A4FA7CA227CE423D00D765EB /* Staff.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4FA7CA027CE423D00D765EB /* Staff.swift */; };
+		A4FA7CAE27CFA11B00D765EB /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4FA7CAC27CFA11B00D765EB /* CustomTableViewCell.swift */; };
+		A4FA7CAF27CFA11B00D765EB /* CustomTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A4FA7CAD27CFA11B00D765EB /* CustomTableViewCell.xib */; };
+		A4FDDCF027D777D90060354B /* AddController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4FDDCEE27D777D90060354B /* AddController.swift */; };
+		A4FDDCF127D777D90060354B /* AddController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A4FDDCEF27D777D90060354B /* AddController.xib */; };
+		A4FE745127E770C000A2F449 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4FE745027E770C000A2F449 /* CoreDataManager.swift */; };
+		ADDC274B5DEE6391E23F0D06 /* Pods_LanarsTestTask.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7310829AF8538E0B9A7D8C87 /* Pods_LanarsTestTask.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A4C8402727CCF70200247FBE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A4C8400527CCF6F200247FBE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A4C8400C27CCF6F200247FBE;
+			remoteInfo = LanarsTestTask;
+		};
+		A4C8403227CCF70200247FBE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A4C8400527CCF6F200247FBE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A4C8400C27CCF6F200247FBE;
+			remoteInfo = LanarsTestTask;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		15091455559C44B8070EECA2 /* Pods-LanarsTestTask-LanarsTestTaskUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LanarsTestTask-LanarsTestTaskUITests.release.xcconfig"; path = "Target Support Files/Pods-LanarsTestTask-LanarsTestTaskUITests/Pods-LanarsTestTask-LanarsTestTaskUITests.release.xcconfig"; sourceTree = "<group>"; };
+		1D3F495D3E502E637BCE6FD0 /* Pods-LanarsTestTask.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LanarsTestTask.debug.xcconfig"; path = "Target Support Files/Pods-LanarsTestTask/Pods-LanarsTestTask.debug.xcconfig"; sourceTree = "<group>"; };
+		36A20A521533C23888B264F9 /* Pods-LanarsTestTaskTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LanarsTestTaskTests.release.xcconfig"; path = "Target Support Files/Pods-LanarsTestTaskTests/Pods-LanarsTestTaskTests.release.xcconfig"; sourceTree = "<group>"; };
+		3D7E8265204EAF3B8DC00B54 /* Pods-LanarsTestTaskTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LanarsTestTaskTests.debug.xcconfig"; path = "Target Support Files/Pods-LanarsTestTaskTests/Pods-LanarsTestTaskTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7310829AF8538E0B9A7D8C87 /* Pods_LanarsTestTask.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LanarsTestTask.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		78E3CDEDB9AD6AAB93ED4397 /* Pods-LanarsTestTask-LanarsTestTaskUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LanarsTestTask-LanarsTestTaskUITests.debug.xcconfig"; path = "Target Support Files/Pods-LanarsTestTask-LanarsTestTaskUITests/Pods-LanarsTestTask-LanarsTestTaskUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		8CF1040620F4381C5FC37E63 /* Pods-LanarsTestTask.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LanarsTestTask.release.xcconfig"; path = "Target Support Files/Pods-LanarsTestTask/Pods-LanarsTestTask.release.xcconfig"; sourceTree = "<group>"; };
+		A4555B3927D6331E005CFDA1 /* ListPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListPresenter.swift; sourceTree = "<group>"; };
+		A47D96EC27D92F5300F45431 /* GalleryCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryCollectionViewCell.swift; sourceTree = "<group>"; };
+		A47D96ED27D92F5300F45431 /* GalleryCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GalleryCollectionViewCell.xib; sourceTree = "<group>"; };
+		A490258E27CD1D48001A7B77 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		A490258F27CD1D48001A7B77 /* MainViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		A4C8400D27CCF6F200247FBE /* LanarsTestTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LanarsTestTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4C8401027CCF6F200247FBE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A4C8401227CCF6F200247FBE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A4C8401427CCF6F200247FBE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A4C8401727CCF6F200247FBE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A4C8401A27CCF6F200247FBE /* LanarsTestTask.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = LanarsTestTask.xcdatamodel; sourceTree = "<group>"; };
+		A4C8401C27CCF70200247FBE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A4C8401F27CCF70200247FBE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A4C8402127CCF70200247FBE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4C8402627CCF70200247FBE /* LanarsTestTaskTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LanarsTestTaskTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4C8402A27CCF70200247FBE /* LanarsTestTaskTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanarsTestTaskTests.swift; sourceTree = "<group>"; };
+		A4C8402C27CCF70200247FBE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4C8403127CCF70200247FBE /* LanarsTestTaskUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LanarsTestTaskUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4C8403527CCF70200247FBE /* LanarsTestTaskUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanarsTestTaskUITests.swift; sourceTree = "<group>"; };
+		A4C8403727CCF70200247FBE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4FA7C9227CE3B0900D765EB /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		A4FA7C9327CE3B0900D765EB /* ListViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ListViewController.xib; sourceTree = "<group>"; };
+		A4FA7C9927CE3B2000D765EB /* GalleryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryViewController.swift; sourceTree = "<group>"; };
+		A4FA7C9A27CE3B2000D765EB /* GalleryViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GalleryViewController.xib; sourceTree = "<group>"; };
+		A4FA7CA027CE423D00D765EB /* Staff.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Staff.swift; sourceTree = "<group>"; };
+		A4FA7CAC27CFA11B00D765EB /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+		A4FA7CAD27CFA11B00D765EB /* CustomTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomTableViewCell.xib; sourceTree = "<group>"; };
+		A4FDDCEE27D777D90060354B /* AddController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddController.swift; sourceTree = "<group>"; };
+		A4FDDCEF27D777D90060354B /* AddController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AddController.xib; sourceTree = "<group>"; };
+		A4FE745027E770C000A2F449 /* CoreDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		F625EA0061F3A1CC64D2400D /* Pods_LanarsTestTaskTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LanarsTestTaskTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7454007E95A1458A0BD91E7 /* Pods_LanarsTestTask_LanarsTestTaskUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LanarsTestTask_LanarsTestTaskUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A4C8400A27CCF6F200247FBE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADDC274B5DEE6391E23F0D06 /* Pods_LanarsTestTask.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4C8402327CCF70200247FBE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				814B30EABE7243C924D77DB9 /* Pods_LanarsTestTaskTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4C8402E27CCF70200247FBE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DE8A5BCF54F3851A3093DEC /* Pods_LanarsTestTask_LanarsTestTaskUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4E4682CF47989DC40C65A09C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7310829AF8538E0B9A7D8C87 /* Pods_LanarsTestTask.framework */,
+				F7454007E95A1458A0BD91E7 /* Pods_LanarsTestTask_LanarsTestTaskUITests.framework */,
+				F625EA0061F3A1CC64D2400D /* Pods_LanarsTestTaskTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7E5A14349F13893E871589AE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1D3F495D3E502E637BCE6FD0 /* Pods-LanarsTestTask.debug.xcconfig */,
+				8CF1040620F4381C5FC37E63 /* Pods-LanarsTestTask.release.xcconfig */,
+				78E3CDEDB9AD6AAB93ED4397 /* Pods-LanarsTestTask-LanarsTestTaskUITests.debug.xcconfig */,
+				15091455559C44B8070EECA2 /* Pods-LanarsTestTask-LanarsTestTaskUITests.release.xcconfig */,
+				3D7E8265204EAF3B8DC00B54 /* Pods-LanarsTestTaskTests.debug.xcconfig */,
+				36A20A521533C23888B264F9 /* Pods-LanarsTestTaskTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		A434874327DE28E500462BE1 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				A490258E27CD1D48001A7B77 /* MainViewController.swift */,
+				A490258F27CD1D48001A7B77 /* MainViewController.xib */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		A434874427DE28F600462BE1 /* List */ = {
+			isa = PBXGroup;
+			children = (
+				A434875127DE297400462BE1 /* CustomTable */,
+				A4FA7C9227CE3B0900D765EB /* ListViewController.swift */,
+				A4FA7C9327CE3B0900D765EB /* ListViewController.xib */,
+				A4555B3927D6331E005CFDA1 /* ListPresenter.swift */,
+			);
+			path = List;
+			sourceTree = "<group>";
+		};
+		A434874527DE290C00462BE1 /* Staff */ = {
+			isa = PBXGroup;
+			children = (
+				A4FA7CA027CE423D00D765EB /* Staff.swift */,
+			);
+			path = Staff;
+			sourceTree = "<group>";
+		};
+		A434874927DE293E00462BE1 /* Add */ = {
+			isa = PBXGroup;
+			children = (
+				A4FDDCEE27D777D90060354B /* AddController.swift */,
+				A4FDDCEF27D777D90060354B /* AddController.xib */,
+			);
+			path = Add;
+			sourceTree = "<group>";
+		};
+		A434875027DE295000462BE1 /* Gallery */ = {
+			isa = PBXGroup;
+			children = (
+				A4FA7C9927CE3B2000D765EB /* GalleryViewController.swift */,
+				A4FA7C9A27CE3B2000D765EB /* GalleryViewController.xib */,
+				A47D96EC27D92F5300F45431 /* GalleryCollectionViewCell.swift */,
+				A47D96ED27D92F5300F45431 /* GalleryCollectionViewCell.xib */,
+			);
+			path = Gallery;
+			sourceTree = "<group>";
+		};
+		A434875127DE297400462BE1 /* CustomTable */ = {
+			isa = PBXGroup;
+			children = (
+				A4FA7CAC27CFA11B00D765EB /* CustomTableViewCell.swift */,
+				A4FA7CAD27CFA11B00D765EB /* CustomTableViewCell.xib */,
+			);
+			path = CustomTable;
+			sourceTree = "<group>";
+		};
+		A4C8400427CCF6F200247FBE = {
+			isa = PBXGroup;
+			children = (
+				A4FE744F27E770B000A2F449 /* CoreData */,
+				A4C8404727CCFA2E00247FBE /* Controllers */,
+				A4C8400F27CCF6F200247FBE /* LanarsTestTask */,
+				A4C8402927CCF70200247FBE /* LanarsTestTaskTests */,
+				A4C8403427CCF70200247FBE /* LanarsTestTaskUITests */,
+				A4C8400E27CCF6F200247FBE /* Products */,
+				7E5A14349F13893E871589AE /* Pods */,
+				4E4682CF47989DC40C65A09C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A4C8400E27CCF6F200247FBE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A4C8400D27CCF6F200247FBE /* LanarsTestTask.app */,
+				A4C8402627CCF70200247FBE /* LanarsTestTaskTests.xctest */,
+				A4C8403127CCF70200247FBE /* LanarsTestTaskUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A4C8400F27CCF6F200247FBE /* LanarsTestTask */ = {
+			isa = PBXGroup;
+			children = (
+				A4C8401027CCF6F200247FBE /* AppDelegate.swift */,
+				A4C8401227CCF6F200247FBE /* SceneDelegate.swift */,
+				A4C8401427CCF6F200247FBE /* ViewController.swift */,
+				A4C8401627CCF6F200247FBE /* Main.storyboard */,
+				A4C8401C27CCF70200247FBE /* Assets.xcassets */,
+				A4C8401E27CCF70200247FBE /* LaunchScreen.storyboard */,
+				A4C8402127CCF70200247FBE /* Info.plist */,
+			);
+			path = LanarsTestTask;
+			sourceTree = "<group>";
+		};
+		A4C8402927CCF70200247FBE /* LanarsTestTaskTests */ = {
+			isa = PBXGroup;
+			children = (
+				A4C8402A27CCF70200247FBE /* LanarsTestTaskTests.swift */,
+				A4C8402C27CCF70200247FBE /* Info.plist */,
+			);
+			path = LanarsTestTaskTests;
+			sourceTree = "<group>";
+		};
+		A4C8403427CCF70200247FBE /* LanarsTestTaskUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A4C8403527CCF70200247FBE /* LanarsTestTaskUITests.swift */,
+				A4C8403727CCF70200247FBE /* Info.plist */,
+			);
+			path = LanarsTestTaskUITests;
+			sourceTree = "<group>";
+		};
+		A4C8404727CCFA2E00247FBE /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A434875027DE295000462BE1 /* Gallery */,
+				A434874927DE293E00462BE1 /* Add */,
+				A434874527DE290C00462BE1 /* Staff */,
+				A434874427DE28F600462BE1 /* List */,
+				A434874327DE28E500462BE1 /* Main */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		A4FE744F27E770B000A2F449 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				A4FE745027E770C000A2F449 /* CoreDataManager.swift */,
+				A4C8401927CCF6F200247FBE /* LanarsTestTask.xcdatamodeld */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A4C8400C27CCF6F200247FBE /* LanarsTestTask */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4C8403A27CCF70200247FBE /* Build configuration list for PBXNativeTarget "LanarsTestTask" */;
+			buildPhases = (
+				FCE392DCD2CBF04E884C919D /* [CP] Check Pods Manifest.lock */,
+				A4C8400927CCF6F200247FBE /* Sources */,
+				A4C8400A27CCF6F200247FBE /* Frameworks */,
+				A4C8400B27CCF6F200247FBE /* Resources */,
+				99300A6F036516ED424A764E /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LanarsTestTask;
+			productName = LanarsTestTask;
+			productReference = A4C8400D27CCF6F200247FBE /* LanarsTestTask.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A4C8402527CCF70200247FBE /* LanarsTestTaskTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4C8403D27CCF70200247FBE /* Build configuration list for PBXNativeTarget "LanarsTestTaskTests" */;
+			buildPhases = (
+				E116FF333F27A455950D920C /* [CP] Check Pods Manifest.lock */,
+				A4C8402227CCF70200247FBE /* Sources */,
+				A4C8402327CCF70200247FBE /* Frameworks */,
+				A4C8402427CCF70200247FBE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A4C8402827CCF70200247FBE /* PBXTargetDependency */,
+			);
+			name = LanarsTestTaskTests;
+			productName = LanarsTestTaskTests;
+			productReference = A4C8402627CCF70200247FBE /* LanarsTestTaskTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A4C8403027CCF70200247FBE /* LanarsTestTaskUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4C8404027CCF70200247FBE /* Build configuration list for PBXNativeTarget "LanarsTestTaskUITests" */;
+			buildPhases = (
+				181E44040CCC0BB1DF8E9FDD /* [CP] Check Pods Manifest.lock */,
+				A4C8402D27CCF70200247FBE /* Sources */,
+				A4C8402E27CCF70200247FBE /* Frameworks */,
+				A4C8402F27CCF70200247FBE /* Resources */,
+				DF29CF8077D96EAE09014EA0 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A4C8403327CCF70200247FBE /* PBXTargetDependency */,
+			);
+			name = LanarsTestTaskUITests;
+			productName = LanarsTestTaskUITests;
+			productReference = A4C8403127CCF70200247FBE /* LanarsTestTaskUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A4C8400527CCF6F200247FBE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1210;
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					A4C8400C27CCF6F200247FBE = {
+						CreatedOnToolsVersion = 12.1;
+					};
+					A4C8402527CCF70200247FBE = {
+						CreatedOnToolsVersion = 12.1;
+						TestTargetID = A4C8400C27CCF6F200247FBE;
+					};
+					A4C8403027CCF70200247FBE = {
+						CreatedOnToolsVersion = 12.1;
+						TestTargetID = A4C8400C27CCF6F200247FBE;
+					};
+				};
+			};
+			buildConfigurationList = A4C8400827CCF6F200247FBE /* Build configuration list for PBXProject "LanarsTestTask" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A4C8400427CCF6F200247FBE;
+			productRefGroup = A4C8400E27CCF6F200247FBE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A4C8400C27CCF6F200247FBE /* LanarsTestTask */,
+				A4C8402527CCF70200247FBE /* LanarsTestTaskTests */,
+				A4C8403027CCF70200247FBE /* LanarsTestTaskUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A4C8400B27CCF6F200247FBE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4C8402027CCF70200247FBE /* LaunchScreen.storyboard in Resources */,
+				A4FA7C9C27CE3B2000D765EB /* GalleryViewController.xib in Resources */,
+				A47D96EF27D92F5300F45431 /* GalleryCollectionViewCell.xib in Resources */,
+				A4FDDCF127D777D90060354B /* AddController.xib in Resources */,
+				A4C8401D27CCF70200247FBE /* Assets.xcassets in Resources */,
+				A4FA7C9527CE3B0900D765EB /* ListViewController.xib in Resources */,
+				A4C8401827CCF6F200247FBE /* Main.storyboard in Resources */,
+				A4FA7CAF27CFA11B00D765EB /* CustomTableViewCell.xib in Resources */,
+				A490259127CD1D48001A7B77 /* MainViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4C8402427CCF70200247FBE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4C8402F27CCF70200247FBE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		181E44040CCC0BB1DF8E9FDD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LanarsTestTask-LanarsTestTaskUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		99300A6F036516ED424A764E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LanarsTestTask/Pods-LanarsTestTask-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LanarsTestTask/Pods-LanarsTestTask-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LanarsTestTask/Pods-LanarsTestTask-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DF29CF8077D96EAE09014EA0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LanarsTestTask-LanarsTestTaskUITests/Pods-LanarsTestTask-LanarsTestTaskUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LanarsTestTask-LanarsTestTaskUITests/Pods-LanarsTestTask-LanarsTestTaskUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LanarsTestTask-LanarsTestTaskUITests/Pods-LanarsTestTask-LanarsTestTaskUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E116FF333F27A455950D920C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LanarsTestTaskTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FCE392DCD2CBF04E884C919D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LanarsTestTask-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A4C8400927CCF6F200247FBE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4555B3A27D6331E005CFDA1 /* ListPresenter.swift in Sources */,
+				A47D96EE27D92F5300F45431 /* GalleryCollectionViewCell.swift in Sources */,
+				A4C8401527CCF6F200247FBE /* ViewController.swift in Sources */,
+				A4FA7C9B27CE3B2000D765EB /* GalleryViewController.swift in Sources */,
+				A4FA7CA227CE423D00D765EB /* Staff.swift in Sources */,
+				A4C8401127CCF6F200247FBE /* AppDelegate.swift in Sources */,
+				A4FA7C9427CE3B0900D765EB /* ListViewController.swift in Sources */,
+				A4FE745127E770C000A2F449 /* CoreDataManager.swift in Sources */,
+				A4FDDCF027D777D90060354B /* AddController.swift in Sources */,
+				A4FA7CAE27CFA11B00D765EB /* CustomTableViewCell.swift in Sources */,
+				A4C8401327CCF6F200247FBE /* SceneDelegate.swift in Sources */,
+				A4C8401B27CCF6F200247FBE /* LanarsTestTask.xcdatamodeld in Sources */,
+				A490259027CD1D48001A7B77 /* MainViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4C8402227CCF70200247FBE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4C8402B27CCF70200247FBE /* LanarsTestTaskTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4C8402D27CCF70200247FBE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4C8403627CCF70200247FBE /* LanarsTestTaskUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A4C8402827CCF70200247FBE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A4C8400C27CCF6F200247FBE /* LanarsTestTask */;
+			targetProxy = A4C8402727CCF70200247FBE /* PBXContainerItemProxy */;
+		};
+		A4C8403327CCF70200247FBE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A4C8400C27CCF6F200247FBE /* LanarsTestTask */;
+			targetProxy = A4C8403227CCF70200247FBE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A4C8401627CCF6F200247FBE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A4C8401727CCF6F200247FBE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A4C8401E27CCF70200247FBE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A4C8401F27CCF70200247FBE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A4C8403827CCF70200247FBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A4C8403927CCF70200247FBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A4C8403B27CCF70200247FBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D3F495D3E502E637BCE6FD0 /* Pods-LanarsTestTask.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JA38HHH6V4;
+				INFOPLIST_FILE = LanarsTestTask/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Shepilov.LanarsTestTask;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A4C8403C27CCF70200247FBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8CF1040620F4381C5FC37E63 /* Pods-LanarsTestTask.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JA38HHH6V4;
+				INFOPLIST_FILE = LanarsTestTask/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Shepilov.LanarsTestTask;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A4C8403E27CCF70200247FBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D7E8265204EAF3B8DC00B54 /* Pods-LanarsTestTaskTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LanarsTestTaskTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Ponomarenko.LanarsTestTaskTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LanarsTestTask.app/LanarsTestTask";
+			};
+			name = Debug;
+		};
+		A4C8403F27CCF70200247FBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 36A20A521533C23888B264F9 /* Pods-LanarsTestTaskTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LanarsTestTaskTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Ponomarenko.LanarsTestTaskTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LanarsTestTask.app/LanarsTestTask";
+			};
+			name = Release;
+		};
+		A4C8404127CCF70200247FBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 78E3CDEDB9AD6AAB93ED4397 /* Pods-LanarsTestTask-LanarsTestTaskUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LanarsTestTaskUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Ponomarenko.LanarsTestTaskUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LanarsTestTask;
+			};
+			name = Debug;
+		};
+		A4C8404227CCF70200247FBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 15091455559C44B8070EECA2 /* Pods-LanarsTestTask-LanarsTestTaskUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LanarsTestTaskUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Ponomarenko.LanarsTestTaskUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LanarsTestTask;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A4C8400827CCF6F200247FBE /* Build configuration list for PBXProject "LanarsTestTask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4C8403827CCF70200247FBE /* Debug */,
+				A4C8403927CCF70200247FBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4C8403A27CCF70200247FBE /* Build configuration list for PBXNativeTarget "LanarsTestTask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4C8403B27CCF70200247FBE /* Debug */,
+				A4C8403C27CCF70200247FBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4C8403D27CCF70200247FBE /* Build configuration list for PBXNativeTarget "LanarsTestTaskTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4C8403E27CCF70200247FBE /* Debug */,
+				A4C8403F27CCF70200247FBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4C8404027CCF70200247FBE /* Build configuration list for PBXNativeTarget "LanarsTestTaskUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4C8404127CCF70200247FBE /* Debug */,
+				A4C8404227CCF70200247FBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A4C8401927CCF6F200247FBE /* LanarsTestTask.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A4C8401A27CCF6F200247FBE /* LanarsTestTask.xcdatamodel */,
+			);
+			currentVersion = A4C8401A27CCF6F200247FBE /* LanarsTestTask.xcdatamodel */;
+			path = LanarsTestTask.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A4C8400527CCF6F200247FBE /* Project object */;
+}
